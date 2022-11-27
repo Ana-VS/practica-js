@@ -1,6 +1,4 @@
-export const availableMaleNames = ['pepe', 'juan', 'victor', 'leo', 'francisco', 'carlos']
-export const availableFemaleNames = ['cecilia', 'ana', 'luisa', 'eva', 'isabel', 'virginia']
-export const availableGenders = ['male', 'female']
+
 
 export const requirements = [
     '1. Displays all of the students as a table',
@@ -10,7 +8,7 @@ export const requirements = [
     '5. Removes a random student from the class',
     '6. Display every female student´s data',
     '7. Displays how many boys and girls are in the class',
-    '8. Displays true if all oh the students are female',
+    '8. Displays true if all of the students are female',
     '9. Displays the names of the students whose age is between 20 and 25 years old',
     '10. Adds a new student',
     '11. Displays the name of the younger student',

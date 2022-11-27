@@ -1,3 +1,7 @@
+export const availableMaleNames = ['pepe', 'juan', 'victor', 'leo', 'francisco', 'carlos']
+export const availableFemaleNames = ['cecilia', 'ana', 'luisa', 'eva', 'isabel', 'virginia']
+export const availableGenders = ['male', 'female']
+
 export function displayOptions (array) {
   for ( let index = 0; index < array.length ; index++) {
     console.log (array[index])}
@@ -43,9 +47,27 @@ export function getAges (array) {
   }
 }
 
+export function getRandomString(array){
+  return array[Math.floor(Math.random()*array.length)]
+  }
+
+export function addNewStudent (array) {
+  let student = {
+    age : calculateRandomNumber (20,50),
+    examScores : [],
+    gender : getRandomString (availableGenders),
+    name : "",
+       
+    }
+  if (student.gender === "female") {
+    student.name = getRandomString (availableFemaleNames)
+  } else {student.name = getRandomString (availableMaleNames)}
+  array.push (student)
+  }
+
 export function getTheYoungest (array) {
   let minAge = array[0].age
-  position = 0
+  let position = 0
   for ( let index = 0; index < array.length ; index++) {
     if (array[index].age < minAge ) {
     minAge = array[index].age
