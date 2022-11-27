@@ -1,21 +1,8 @@
-const students = [{
-    age: 32,
-    examScores: [],
-    gender: 'male',
-    name: 'edu'
-  },
-  {
-    age: 29,
-    examScores: [],
-    gender: 'female',
-    name: 'silvia'
-  }]
+export const availableMaleNames = ['pepe', 'juan', 'victor', 'leo', 'francisco', 'carlos']
+export const availableFemaleNames = ['cecilia', 'ana', 'luisa', 'eva', 'isabel', 'virginia']
+export const availableGenders = ['male', 'female']
 
-const availableMaleNames = ['pepe', 'juan', 'victor', 'Leo', 'francisco', 'carlos']
-const availableFemaleNames = ['cecilia', 'ana', 'luisa', 'eva', 'isabel', 'virginia']
-const availableGenders = ['male', 'female']
-
-const requirements = [
+export const requirements = [
     '1. Displays all of the students as a table',
     '2. Displays the amount of students in the class',
     '3. Displays every student´s name',
