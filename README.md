@@ -1,5 +1,6 @@
 # practica-js
-Práctica del módulo "JavaScript desde cero" del Bootcamp Mujeres en Tech de Glovo y KeepCoding
+Práctica del módulo "JavaScript desde cero" del Bootcamp Mujeres en Tech de Glovo y KeepCoding.
+Ejecutar index.js
 
 # Classroom management
 Necesitamos desarrollar una aplicación hecha con javascript que nos ayude a gestionar los alumnos de nuestra clase.
